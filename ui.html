@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>POMODORO CLOCK</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Modak|Nova+Flat" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Pomodoro Clock</h1>
+    <div class="container">
+        <nav>
+            <div class= "params">
+                <h3>Session</h3>
+                <div class="params_wrap">
+                    <div id="up" class="arrow up">▲</div>
+                    <div id="down" class="arrow down">▼</div>
+                    <div class="number">
+                        <p id="session">25</p>
+                    </div>
+                </div>
+            </div>
+            <div class="params">
+                <h3>Break</h3>
+                    <div class="params_wrap">
+                        <div id="up2" class="arrow up">▲</div>
+                        <div id="down2" class="arrow down">▼</div>
+                        <div class="number">
+                        <p id="break">5</p>
+                    </div>
+                    </div>
+            </div>
+        </nav>
+        <div class="clock">
+            <div class="button" id="play">
+                <a href="#"><p>▶</p></a>
+            </div>
+            <div class="button" id="restart">
+                <a href="#"><p>🔃</p></a>
+            </div>
+            <div class="time">
+                <h3 id="clockTitle"></h3>
+                <p id="time">--:--</p>
+            </div>
+            <div class="button" id="pause">
+                <a href="#"><p>⏸</p></a>
+            </div>
+            <div class="button" id="stop">
+                <a href="#"><p>■</p></a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

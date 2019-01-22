@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* TOP PARAMETERS */
+  
+  body {
+    background-image: url('http://images.all-free-download.com/images/graphiclarge/wood_background_hd_picture_4_169843.jpg');
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Modak', cursive;
+    font-size: 8rem;
+    color: #e3b569;
+    text-shadow: 3px 0px black, 0px 3px black,
+                 -3px 0px black, 0px -3px black;
+    margin: 50px;
+  }
+  
+  .container {
+    height: 600px; width: 800px;
+    margin: 5px auto;
+    position: relative;
+    opacity: 0.9;
+  }
+  
+  .container nav {
+    height: 190px; width: 100%;
+    background-color: #0e0903;
+    border-radius: 10px;
+  
+  }
+  
+  .container nav .params{
+    height: 180px; width: 50%;
+    float: left;
+    margin-top: 5px;
+  }
+  
+  nav h3 {
+    margin-top: 10px;
+    font-family: 'Nova Flat', cursive;
+    font-size: 2rem;
+    color: #e3b569;
+    text-shadow: 2px 0px black, 0px 2px black,
+                 -2px 0px black, 0px -2px black;
+  }
+  
+  .params .params_wrap  {
+    margin-top: 20px;
+  }
+  
+  nav .arrow {
+    margin-top: 10px;
+    font-size: 3rem;
+    color: #e3b569;
+    text-shadow: 2px 0px black, 0px 2px black,
+                 -2px 0px black, 0px -2px black;
+      cursor:pointer;
+  }
+  
+  nav .arrow:hover {
+    color: #ffd390;
+    text-shadow: 1px 0px black, 0px 1px black,
+                 -1px 0px black, 0px -1px black;
+  }
+  
+  nav .up {
+    float: left;
+    margin-left: 60px;
+  }
+  
+  nav .down {
+    float: right;
+    margin-right: 60px;
+  }
+  
+  .params .number{
+    height: 80px; width: 200px;
+    margin: 10px auto;
+  }
+  
+  .params .number p {
+    margin-top: 15px;
+    font-family: 'Nova Flat', cursive;
+    font-size: 3rem;
+    color: white;
+  }
+  
+  
+  
+  /* CLOCK */
+  
+  .container .clock {
+    height: 400px; width: 100%;
+    background-color: #0e0903;
+    position: absolute;
+    bottom: 0;
+    border-radius: 10px;
+  
+  }
+  
+  .clock h3 {
+    font-family: 'Nova Flat', cursive;
+    font-size: 5rem;
+    color: #e3b569;
+    text-shadow: 2px 0px black, 0px 2px black,
+                 -2px 0px black, 0px -2px black;
+  }
+  
+  .clock .time {
+    height: 200px; width: 500px;
+    margin: 100px auto;
+    text-align: center;
+  
+  }
+  
+  .clock .time p {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: 'Nova Flat', cursive;
+    font-size: 7rem;
+    color: white;
+  }
+  
+  .clock .button a {
+    text-decoration: none;
+    font-size: 4rem;
+    color: #e3b569;
+    text-shadow: 2px 0px black, 0px 2px black,
+                 -2px 0px black, 0px -2px black;
+  }
+  
+  
+  .clock .button a:hover {
+    text-decoration: none;
+    color: #ffd390;
+    text-shadow: 1px 0px black, 0px 1px black,
+                 -1px 0px black, 0px -1px black;
+  }
+  
+  .clock .button a:focus {
+    outline: none;
+  }
+  
+  .clock #play {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+  
+  .clock #restart {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  
+  .clock #pause {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+  }
+  
+  .clock #stop {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+  }
